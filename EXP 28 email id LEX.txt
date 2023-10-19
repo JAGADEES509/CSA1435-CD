@@ -17,25 +17,3 @@ printf("\n enter the Email ID:");
 yylex();
 }
 
-OUTPUT;
-
-Microsoft Windows [Version 10.0.22621.2428]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\jagadees>set path=C:\Program Files (x86)\GnuWin32\bin
-
-C:\Users\jagadees>flex email.l.txt
-
-C:\Users\jagadees>set path=C:\MinGW\bin
-
-C:\Users\jagadees>gcc lex.yy.c
-
-C:\Users\jagadees>a
-
- enter the Email ID:kumarmahi9999@gmail.in
-
- the email id entered is valid
-
-kumarmahi99999@gmail.com
-
- the email id entered is valid
