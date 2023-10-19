@@ -1,0 +1,11 @@
+%%
+
+int yywrap()
+{}
+
+
+int main()
+{
+printf("\n enter the mobile number:");
+yylex();
+}
