@@ -18,18 +18,3 @@ printf("\n enter the mobile number:");
 yylex();
 }
 
-OUTPUT:
-
-C:\Users\jagadees>set path=C:\Program Files (x86)\GnuWin32\bin
-
-C:\Users\jagadees>flex mobile.l.txt
-
-C:\Users\jagadees>set path=C:\MinGW\bin
-
-C:\Users\jagadees>gcc lex.yy.c
-
-C:\Users\jagadees>a
-
- enter the mobile number:7010813794
-
- mobile number valid
