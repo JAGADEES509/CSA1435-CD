@@ -13,18 +13,4 @@ yylex();
 }
 
 
-output:
-Microsoft Windows [Version 10.0.22621.2428]
-(c) Microsoft Corporation. All rights reserved.
 
-C:\Users\jagadees>set path=C:\Program Files (x86)\GnuWin32\bin
-
-C:\Users\jagadees>flex addline.l.txt
-
-C:\Users\jagadees>set path=C:\MinGW\bin
-
-C:\Users\jagadees>gcc lex.yy.c
-
-C:\Users\jagadees>a
-
-C:\Users\jagadees>
